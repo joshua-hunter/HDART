@@ -1,0 +1,28 @@
+img {
+  border: 15px solid #000000;
+  border-spacing: 100px;
+}
+.responsive {
+  width: 95%;
+  height: auto;
+}
+h1 {
+  text-align: center;
+}
+.rotate {
+  animation: rotation 45s;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.linear {
+  animation-timing-function: linear;
+}
+.infinite {
+  animation-iteration-count: infinite;
+}
